@@ -1,56 +1,55 @@
-import React from "react";
+import React from 'react';
 
 const Work = () => (
-  <div className="row work">
-    <div className="three columns header-col">
-      <h1>
-        <span>Work</span>
-      </h1>
-    </div>
+	<div className="row work">
+		<div className="three columns header-col">
+			<h1>
+				<span>Work</span>
+			</h1>
+		</div>
 
-    <div className="nine columns main-col">
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Awesome Design Studio</h3>
-          <p className="info">
-            Senior UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2010 - Present</em>
-          </p>
+		<div className="nine columns main-col">
+			<div className="row item">
+				<div className="twelve columns">
+					<h3>Independent Consulting</h3>
+					<p className="info">
+						Focused on Growth, UX, and Development
+						<span>&bull;</span>
+						<em className="date">March 2012 - Present</em>
+					</p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
-          </p>
-        </div>
-      </div>
+					<p>
+						I have been consulting since 2012, as well as have taken larger
+						roles with many of my promising clients over the years. I have been
+						invited to join teams to serve as Head Of Growth, Head Of Product,
+						Full Stack Developer, as well as lead Data Scientist for many
+						venture backed startups, as well as bootstraped startups.
+					</p>
+				</div>
+			</div>
 
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>Super Cool Studio</h3>
-          <p className="info">
-            UX Designer
-            <span>&bull;</span>
-            <em className="date">March 2007 - February 2010</em>
-          </p>
+			<div className="row item">
+				<div className="twelve columns">
+					<h3>Golden Volunteer</h3>
+					<p className="info">
+						Head Of Product Growth
+						<span>&bull;</span>
+						<em className="date">Sept 2015 - Dec 2017</em>
+					</p>
 
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+					<p>
+						I joined Golden as the head of growth. I then moved into a mixture
+						of roles focused around Growth, User Experience, and Product
+						Management helping to create a highly engagable product for a
+						multisided marketplace. During my time with Golden, they experienced
+						well over 10x growth on both sides of the marketplace and recruited
+						75% of all large nonprofits onto the platform with an intiative
+						designed and developed by me independnetly.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 );
 
 export default Work;

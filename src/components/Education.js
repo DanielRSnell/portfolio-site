@@ -1,56 +1,54 @@
-import React from "react";
+import React from 'react';
 
 const Education = () => (
-  <div className="row education">
-    <div className="three columns header-col">
-      <h1>
-        <span>Education</span>
-      </h1>
-    </div>
+	<div className="row education">
+		<div className="three columns header-col">
+			<h1>
+				<span>Education</span>
+			</h1>
+		</div>
 
-    <div className="nine columns main-col">
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>University of Life</h3>
-          <p className="info">
-            Master in Graphic Design
-            <span>&bull;</span>
-            <em className="date">April 2007</em>
-          </p>
+		<div className="nine columns main-col">
+			<div className="row item">
+				<div className="twelve columns">
+					<h3>Udacity</h3>
+					<p className="info">
+						Machine Learning Engineer
+						<span>&bull;</span>
+						<em className="date">October 2016</em>
+					</p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
-          </p>
-        </div>
-      </div>
+					<p>
+						Due to the limited number of resources currently available on Data
+						science I decided to join Udacities Machine Learning program, as
+						well as Deep Learning in-order to learn more about machine learning
+						modeling, as well as soldify my background in Python and Data
+						Manipulation.
+					</p>
+				</div>
+			</div>
 
-      <div className="row item">
-        <div className="twelve columns">
-          <h3>School of Cool Designers</h3>
-          <p className="info">
-            B.A. Degree in Graphic Design
-            <span>&bull;</span>
-            <em className="date">March 2003</em>
-          </p>
+			<div className="row item">
+				<div className="twelve columns">
+					<h3>Lifetime Learner</h3>
+					<p className="info">
+						Learning all the time
+						<span>&bull;</span>
+						<em className="date">Everyday</em>
+					</p>
 
-          <p>
-            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-            ornare odio. Sed non mauris vitae erat
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+					<p>
+						I felt early on in my career that there was no specific path other
+						than to learn and absorb as much as I could about popular and
+						upcoming technologies over the years. Much of my time has been
+						focused on learning both Growth and Development, mostly focused on
+						learning the latest technologies as they hit the scene such as
+						React, GraphQL, Tensor Flow, and many more.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 );
 
 export default Education;
