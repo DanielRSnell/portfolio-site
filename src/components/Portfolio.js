@@ -4,7 +4,7 @@ import { FaPlus, FaTag } from 'react-icons/lib/fa';
 const Coffee = 'https://media.graphcms.com/UjwhlkklToC5D1CPuSco';
 const Console = 'https://media.graphcms.com/JeaiUCnmQPKUJRO3FfHK';
 const Judah = 'https://media.graphcms.com/R1FewZnxTRKZrTixuNnE';
-const IntoTheLight = 'https://media.graphcms.com/tS3yVqQMTmSD1V5E39b4';
+const IntoTheLight = 'https://media.graphcms.com/GJRnpDprSOeX4Mde5TBQ';
 const Farmerboy = 'https://media.graphcms.com/OZfbLvpRSg0oQpEBfYw9';
 const Girl = 'https://media.graphcms.com/em58b7AjTPWUTp01MfOi';
 const Origami = 'https://media.graphcms.com/yCqYz3rdSKGy2YNUmZyQ';
@@ -67,8 +67,8 @@ const Portfolio = () => (
 								<img alt="" src={IntoTheLight} />
 								<div className="overlay">
 									<div className="portfolio-item-meta">
-										<h5>GraphQL</h5>
-										<p>Best Query Language Ever</p>
+										<h5>GraphCMS</h5>
+										<p>GraphQL based CMS API</p>
 									</div>
 								</div>
 							</a>
